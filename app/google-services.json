@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "564014113467",
+    "firebase_url": "https://sportview-bea13-default-rtdb.firebaseio.com",
+    "project_id": "sportview-bea13",
+    "storage_bucket": "sportview-bea13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564014113467:android:49a59521093cb5acfdbf9e",
+        "android_client_info": {
+          "package_name": "mx.utng.sportviewe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564014113467-ejkfc4eegd4obktevefo1cdjrehhrmjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsZhpjDv2flLMlRK3TI3r1RdzFqHjKs1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564014113467-ejkfc4eegd4obktevefo1cdjrehhrmjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Login SportView"
+        android:elevation="50dp"
+        android:layout_gravity="right"
+        android:background="#FFFFFF"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_height="wrap_content"
+        android:layout_width="500dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:elevation="50dp"
+        android:autofillHints="no"
+        android:background="@drawable/input_bg"
+        android:hint="Ingresa tu Email"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="500dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:elevation="50dp"
+        android:autofillHints="no"
+        android:background="@drawable/input_bg"
+        android:hint="Ingresa tu Contraseña"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_bg"
+        android:text="Enviar"
+    />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="No tienes una cuenta?"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/signUpPage"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Registrate"
+                android:gravity="center"
+                android:layout_marginStart="5dp"
+                android:textColor="#FC4041"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
